@@ -26,6 +26,10 @@ build/
 *.pem
 .history
 tsconfig.tsbuildinfo
+.env.*
+!.env.example
+secrets/
+*.key
 
 # Debug
 npm-debug.log*
